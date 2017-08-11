@@ -76,7 +76,7 @@ RUN { \
                 echo 'display_errors=Off'; \
                 echo 'log_errors=On'; \
                 echo 'display_startup_errors=Off'; \
-                echo 'date.timezone=UTC'; \
+                echo 'date.timezone=Europe/Paris'; \
     } > /usr/local/etc/php/conf.d/php.ini
 
 COPY sshd_config /etc/ssh/
